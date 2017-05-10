@@ -1,0 +1,33 @@
+version: '2'
+
+networks:
+    bibbox-default-network:
+      external: true
+
+services:
+
+  §§INSTANCE-oracle:
+    image: wnameless/oracle-xe-11g
+    container_name:  §§INSTANCE-oracle
+    restart: unless-stopped
+    networks:
+      - bibbox-default-network
+    ports:
+       - "§§PORT2:22"
+       - "§§PORT3:1521"
+
+  §§INSTANCE-i2b2:
+    image: bibbox/i2b2:1.7.07
+    container_name:  §§INSTANCE-i2b2
+    restart: unless-stopped
+    networks:
+      - bibbox-default-network
+    ports:
+       - "§§PORT:80"
+    links:
+       - §§INSTANCE-oracle:oracle
+    depends_on:
+       - §§INSTANCE-oracle
+    command: ./install-or-start.sh
+    tty: true
+

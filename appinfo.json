@@ -1,0 +1,10 @@
+{
+		"name": "i2b2",
+		"short_name": "i2b2",
+		"version": "v1",
+		"description": "2b2 (Informatics for Integrating Biology and the Bedside) is an NIH-funded National Center for Biomedical Computing based at Partners HealthCare System. The i2b2 Center is developing a scalable informatics framework that will enable clinical researchers to use existing clinical data for discovery research and, when combined with IRB-approved genomic data, facilitate the design of targeted therapies for individual patients with diseases having genetic origins. This platform currently enjoys wide international adoption by the CTSA network, academic health centers, and industry.  i2b2 is funded as a cooperative agreement with the National Institutes of Health.",
+        "short_description": "Data Warehouse",
+		"catalogue_url": "",
+		"application_url": "https://www.i2b2.org/",
+		"tags": ["Data Warehouse"]
+}
