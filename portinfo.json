@@ -8,13 +8,13 @@
     },
     {
       "id": "§§PORT2",
-      "url": "§§INSTANCE",
+      "url": "§§INSTANCE2",
       "protocol": "HTTP",
       "proxy" : "PRIMARY"
     },
     {
       "id": "§§PORT3",
-      "url": "§§INSTANCE",
+      "url": "§§INSTANCE3",
       "protocol": "HTTP",
       "proxy" : "PRIMARY"
     }

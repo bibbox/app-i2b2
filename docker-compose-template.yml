@@ -18,7 +18,7 @@ services:
 
   §§INSTANCE-i2b2:
     image: bibbox/i2b2:1.7.07
-    container_name:  §§INSTANCE-i2b2
+    container_name: §§INSTANCE-i2b2
     restart: unless-stopped
     networks:
       - bibbox-default-network
