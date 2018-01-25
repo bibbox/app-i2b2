@@ -6,8 +6,8 @@
 
 
 ## Docker Images Used
- * [BIBBOX/owncloud](https://hub.docker.com/r/bibbox/owncloud) 
- * [mySQL](https://hub.docker.com/_/mysql/), offical mySQL container
+ * [BIBBOX/i2b2](https://hub.docker.com/r/bibbox/i2b2/) 
+ * [ORACLE](wnameless/oracle-xe-11g), Oracle container
  * [busybox](https://hub.docker.com/_/busybox/), offical data container
  
 ## Install Environment Variables
