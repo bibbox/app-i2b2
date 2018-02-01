@@ -13,8 +13,8 @@ services:
     networks:
       - bibbox-default-network
     ports:
-       - "§§PORT2:22"
-       - "§§PORT3:1521"
+       - "§§DBSSHPORT:22"
+       - "§§DBUDPPORT:1521"
 
   §§INSTANCE-i2b2:
     image: bibbox/i2b2:1.7.07

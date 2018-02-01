@@ -7,14 +7,14 @@
       "proxy" : "PRIMARY"
     },
     {
-      "id": "§§PORT2",
-      "url": "§§INSTANCE2",
+      "id": "§§DBSSHPORT",
+      "url": "§§INSTANCE-DBSSH",
       "protocol": "HTTP",
       "proxy" : "PRIMARY"
     },
     {
-      "id": "§§PORT3",
-      "url": "§§INSTANCE3",
+      "id": "§§DBUDPPORT",
+      "url": "§§INSTANCE-DBUDP",
       "protocol": "HTTP",
       "proxy" : "PRIMARY"
     }
