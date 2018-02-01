@@ -8,13 +8,13 @@
     },
     {
       "id": "§§DBSSHPORT",
-      "url": "§§INSTANCE-DBSSH",
+      "url": "§§INSTANCEdbssh",
       "protocol": "HTTP",
       "proxy" : "PRIMARY"
     },
     {
       "id": "§§DBUDPPORT",
-      "url": "§§INSTANCE-DBUDP",
+      "url": "§§INSTANCEdbudp",
       "protocol": "HTTP",
       "proxy" : "PRIMARY"
     }
